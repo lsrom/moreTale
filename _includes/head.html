@@ -1,7 +1,18 @@
 <head>
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{site.language}}" lang="{{site.language}}">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="{{site.author.name}}" />
+  <meta property="og:site_name" content="{{site.title}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:url" content="{{site.url}}" />
+  <meta name="twitter:card" content="summary" />
+  {% if site.twitter %}
+  <meta name="twitter:site" content="@{{site.twitter}}"> 
+  <meta name="twitter:creator" content="@{{site.twitter}}"> 
+  {% endif %}
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
@@ -9,7 +20,6 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-
   {% if site.google-analytics %}
   {% include google-analytics.html %}
   {% endif %}
