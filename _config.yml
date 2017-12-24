@@ -27,6 +27,14 @@ github:
   repo:         https://github.com/lsrom/moreTale
 google-analytics: UA-70462011-1 # add if you have it
 
+# Social media sharing buttons
+social:
+  facebook:     true
+  google:       true
+  twitter:      true
+  reddit:       true
+  mail:         true
+
 # Gems
 plugins:
   - jekyll-paginate
