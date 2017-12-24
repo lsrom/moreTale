@@ -7,6 +7,7 @@ paginate:       5
 baseurl:        "/moretale"
 url:            "https://lsrom.github.io"
 language:       "en"
+description:    "Test page for developing moreTale - a simple Jekyll theme based on minimalistic Tale."
 
 # Assets
 sass:
@@ -41,3 +42,4 @@ twitter:        lukesrom
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-feed
