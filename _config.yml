@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          moreTale
 paginate:       5
-baseurl:        "/"
+baseurl:        ""
 url:            "https://lsrom.github.io/moreTale"
 language:       "en"
 description:    "Test page for developing moreTale - a simple Jekyll theme based on minimalistic Tale."
